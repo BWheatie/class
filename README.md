@@ -1,8 +1,8 @@
 # The Iron Yard - Ruby / Rails
 ## Jun 2015 Nashville
 
-    Kurt Nelson
-    kurt@theironyard.com
+Kurt Nelson  
+kurt@theironyard.com
 
 ## Policies
 
