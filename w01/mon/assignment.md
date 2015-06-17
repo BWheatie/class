@@ -1,12 +1,12 @@
 1. If you haven't yet done so, sign up for Github and send me an email with your github username.
 (kurt@theironyard.com)
 
-2. Read the manual page for a unix command with man or woman.
+2. Read the manual page for a unix command with man.
 What command did you read about? What does it do?
 
 For the following two exercises, you should create a directory
 to store your ruby code. Maybe call it "labs". Create a single
-file (e.g. "guess.rb") for each of the following problems:
+file (e.g. "guess.rb") for each of the following problems and post it to a [Gist](http://gist.github.com). Link to the gist in the homework issue I assign you.
 
 ## Number Guessing Game
 
