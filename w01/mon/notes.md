@@ -1,7 +1,3 @@
-# Welcome to the Iron Yard!
-
----
-
 # Introductions
 
 # Who Am I?
