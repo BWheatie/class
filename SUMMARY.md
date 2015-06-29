@@ -6,5 +6,5 @@
    * [Monday 6/29](w01/mon/notes.md)
        * [Assignment](w01/mon/assignment.md)
    * [Tuesday 6/30](w01/tue/notes.md)
-       * [Homework](w01/tue/assignment.md)
+       * [Assignment](w01/tue/assignment.md)
 
