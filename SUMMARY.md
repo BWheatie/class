@@ -7,4 +7,4 @@
        * [Assignment](w01/mon/assignment.md)
    * [Tuesday 6/30](w01/tue/notes.md)
        * [Assignment](w01/tue/assignment.md)
-
+* [Extra Work](extra.md)
