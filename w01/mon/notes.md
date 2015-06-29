@@ -1,3 +1,4 @@
+[Code from Lecture](https://github.com/TIY-Nashville-Rails/class/tree/master/w01/mon/lecture)
 # Introductions
 
 # Who Am I?
@@ -153,5 +154,3 @@
 - You can paste code into irb.
 - You should always try out functions (or even just snippets)
   as you go to make sure things behave as you expect.
-
-# Today's Lab / Homework
