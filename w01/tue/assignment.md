@@ -26,4 +26,8 @@ Can you read this?
 Actually encrypt and decrypt the strings with a key that you ask your user for on input. Use [OpenSSL::Cipher](http://ruby-doc.org/stdlib-2.2.2/libdoc/openssl/rdoc/OpenSSL/Cipher.html#method-c-new)
 
 ## Insane Mode
-Allow the user to save a whole encrypted message to a file and open it again later.
+Allow the user to save a whole encrypted message to a file and open it again later. Make sure they can invoke it from the command line using the below interface.
+
+`./fun-crypt -d password filename.txt`
+
+`./fun-crypt -e password filename.txt`
