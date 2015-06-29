@@ -3,19 +3,16 @@
 # If it's divisible by 15, print FizzBuzz.
 # Otherwise, print the number.
 
-# don't ever do this
-class Integer
-  def divisible_by? i
-    self % i == 0
-  end
+def divisible_by? i, d
+  i % d == 0
 end
 
 def fizzbuzz(i)
-  if i % 15 == 0
+  if divisible_by? i, 15
     puts "FizzBuzz"
-  elsif i % 5 == 0
+  elsif divisible_by? i, 5
     puts "Fizz"
-  elsif i % 3 == 0
+  elsif divisible_by? i, 3
     puts "Buzz"
   else
     puts i
