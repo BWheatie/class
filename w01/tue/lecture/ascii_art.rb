@@ -6,27 +6,35 @@
 #| Luke |  ????           |   Z    |
 #-----------------------------------
 
-def horizontal_line
-  "-"
+def horizontal_line len
+  str = ""
+  len.times { str << "-" }
+  str
 end
-def double_line
-  "="
+
+def double_line len
+  str = ""
+  len.times { str << "=" }
+  str
 end
 def header *titles
-  "| #{titles}"
+  "| #{ titles.join(" | ")} |"
 end
-def pretty_data name, value
-  "| #{name} | #{value}"
+def pretty_data name, value, len
+  base = "| #{name} | #{value[:food]} | #{value[:grade] }"
+  base << " " while base.length < len - 1
+  base << "|"
 end
 data = {}
 data[:ryan] = {food: "stuff", grade: 0}
 data[:ben]  = {food: "meat", grade: 99}
 data[:luke] = {food: "???", grade: -5}
 
-puts horizontal_line
-puts header "Name", "Favorite Food", "Grade"
-puts double_line
+hdr = header "Name", "Favorite Food", "Grade"
+puts horizontal_line(hdr.length)
+puts hdr
+puts double_line(hdr.length)
 data.each do |name, value|
-  puts pretty_data(name, value)
+  puts pretty_data(name, value, hdr.length)
 end
-puts horizontal_line
+puts horizontal_line(hdr.length)
