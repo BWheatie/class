@@ -31,3 +31,18 @@ Allow the user to save a whole encrypted message to a file and open it again lat
 `./fun-crypt -d password filename.txt`
 
 `./fun-crypt -e password filename.txt`
+
+# NATO-alphabet encoder
+Write your own NATO alphabet encoder. There should be a function to encode a string and decode a string. The encode function will take a string, replace all upper and lower case characters with their "NATO" equivalents and return the result. The decode function will take a string, replace the "NATO" characters with their normal lower case letter form and return that.
+
+Non-alphabetical should be copied/stay the same in both cases.
+
+Hint 1: Use a Hash Table!
+
+Examples
+
+```ruby
+encode("dog") #=> "delta omega gamma"
+decode("delta omega gamma") #=> "dog"
+encode("i am 24 years old") #=> "india alpha mike 24 yankee echo alpha romeo sierra oscar lima delta"
+```
