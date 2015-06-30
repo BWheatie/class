@@ -1,23 +1,21 @@
 class Map
   def initialize
-    @keys = []
-    @values = []
+    @contents = []
   end
 
   def set key, value
-    somewhere = @keys.find_index { |k| k == key}
+    somewhere = @contents.find_index { |c| c[0] == key}
     if somewhere
-      @values[somewhere] = value
+      @contents[somewhere] = [key, value]
     else
-      @keys << key
-      @values << value
+      @contents << [key, value]
     end
   end
 
   def get key
-    somewhere = @keys.find_index { |k| k == key}
+    somewhere = @contents.find_index { |c| c[0] == key}
     if somewhere
-      @values[somewhere]
+      @contents[somewhere][1]
     else
       nil
     end
@@ -25,6 +23,7 @@ class Map
 end
 
 map = Map.new
+map.set(:a, 989879)
 map.set(:a, 97)
 map.set(:b, 98)
 
